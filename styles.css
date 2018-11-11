@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #dfe3ee;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.test-img {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav {
+  background-color: #3b5998;
+  color: white;
+}
+
+.logo {
+  margin-right: 20px;
+  border-radius: 10px;
+  border: 2px solid #3b5998;
+}
+
+.mind-text-div {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.mindText {
+  width: 40%;
+  height: 40%;
+}
+
+.menu-div {
+  display: flex;
+  justify-content: left;
+  position: fixed;
+}
+.menu {
+  border-bottom: 200px solid #e9ebee;
+  width: 234px;
+  height: 900px;
+}
